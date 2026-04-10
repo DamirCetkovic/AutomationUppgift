@@ -67,7 +67,7 @@ Feature: Registration England Basketball
     Then a new account should be created successfully
 
     Examples:
-      | browser | email            |
-      | chrome  | damir_chrome@test.se |
-      | edge    | damir_ed@test.se |
-      | firefox | damir_firefox5600@test.se |
+      | browser | email                     |
+      | chrome  | damir_chrome@test.se      |
+      | edge    | damir_ed@test.se          |
+      | firefox | damir_firefox123@test.se  |
