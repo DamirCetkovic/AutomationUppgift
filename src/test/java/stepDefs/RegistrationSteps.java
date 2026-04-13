@@ -134,8 +134,8 @@ public class RegistrationSteps {
     public void i_check_only_age_and_ethics_checkboxes_but_not_terms() {
         // Hoppar över den första rutan (Terms)
 
-        getElement(By.cssSelector("[name='AgeAccept']")).click();
-        getElement(By.cssSelector("[name='AgreeToCodeOfEthicsAndConduct']")).click();
+        getElement(By.cssSelector("[for='sign_up_26']")).click();
+        getElement(By.cssSelector("[for='fanmembersignup_agreetocodeofethicsandconduct']")).click();
 
         System.out.println("Markerade kryssrutor Age och Ethics, men hoppade avsiktligt över Terms.");
     }
